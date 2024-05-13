@@ -313,15 +313,15 @@ const Body = ({mobile, mobBookBtn, setBgBlur, bgBlur, modal, setModal, setViewer
                 <div className='w-[100%] lg:w-[50%] h-[auto] lg:h-[50vh] border-[white] border-dashed border-t-[3px] lg:border-t-[0px] lg:border-l-[3px] p-[30px] flex flex-col lg:justify-around'>
                     <span className='text-center mb-[20px]'>
                         <Email style={{fontSize: '30px', color: 'white'}}/><br/>
-                        theblazinking@gmail.com
+                        ibeene@gmail.com
                     </span>
                     <span className='text-center mb-[20px]'>
                         <Email style={{fontSize: '30px', color: 'white'}}/><br/>
-                        kinglegitto@gmail.com
+                        ibeene@yahoo.com
                     </span>
                     <span className='text-center'>
                         <WhatsApp style={{fontSize: '30px', color: 'white'}}/><br/>
-                        +234 9097777777
+                        +234 8033098918
                     </span>
                 </div>
             </div>
