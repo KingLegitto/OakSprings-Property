@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Lora&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+*{
+    font-family: Lato, sans-serif;
+}
+.Lora{
+    font-family: Lora, Serif;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: #cea55d;
+}
+html{
+    /* scroll-snap-type: y mandatory; */
+    scroll-behavior: smooth;
+}
+/* section{
+    scroll-snap-align: center;
+} */
+
+.modal{
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+.spinner{
+    animation: spin 70s linear infinite;
+}
+@keyframes spin{
+    0%{
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%{
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
